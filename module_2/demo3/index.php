@@ -12,3 +12,6 @@ $aCity = ["name" => "Rennes", "population" => 250000];
 
 var_dump($aCity);
 var_dump($other);
+
+
+
