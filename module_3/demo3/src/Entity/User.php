@@ -21,7 +21,7 @@ class User
 }
 
 
-class User2
+class User2 extends User
 {
 
 }

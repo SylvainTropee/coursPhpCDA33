@@ -12,3 +12,4 @@ $user = new User("Sylvain");
 $service = new NotifService();
 
 echo $user->getName();
+
