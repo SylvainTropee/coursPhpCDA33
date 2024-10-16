@@ -4,7 +4,6 @@ namespace App\Form;
 
 class Form
 {
-
     protected array $form = [];
 
     public function __construct(string $fieldset, string $action = "", string $method = "POST")
