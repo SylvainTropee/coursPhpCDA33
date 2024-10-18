@@ -9,7 +9,8 @@ $sql = "SELECT modele FROM modeles WHERE modele LIKE '$model%'";
 
 $results = $pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 
-foreach ($results as $model){
-    echo "<option>" . $model['modele'] . "</option>";
-}
+//foreach ($results as $model){
+//    echo "<option>" . $model['modele'] . "</option>";
+//}
 
+echo json_encode($results);
